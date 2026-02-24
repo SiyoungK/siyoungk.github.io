@@ -23,7 +23,7 @@ export default function HeroPage() {
           <div className="flex flex-col md:w-fit items-center md:flex-row md:justify-start gap-4">
             <BasicButton text="Contact" external={true} href="https://www.linkedin.com/in/siyoung/"
               className="hover:bg-zinc-700 text-white bg-black border-black hover:border-zinc-700"/>
-            <BasicButton text="Resume" external={true} href="KimSiyoungResume2026.pdf"
+            <BasicButton text="Resume" external={true} href="KimSiyoungResume.pdf"
               className="hover:bg-zinc-300 bg-white border-black"/>
           </div>
         </div>

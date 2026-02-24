@@ -9,7 +9,7 @@ export default function Footer() {
               {/* === Useful links === */}
               <div className="py-5 flex justify-start flex-col md:flex-row gap-3">
                 <div>
-                  <a href="KimSiyoungResume2026.pdf" target="_blank">
+                  <a href="KimSiyoungResume.pdf" target="_blank">
                     Resume
                   </a>
                 </div>
