@@ -32,7 +32,7 @@ export default function Navigation() {
           </div>
           <div>
             <BasicButton text="Contact" external={true} href="https://www.linkedin.com/in/siyoung/" 
-              className="text-black bg-white hover:bg-zinc-300 border-black hover:border-zinc-300"/>
+              className="hover:bg-zinc-700 text-white bg-black border-black hover:border-zinc-700"/>
           </div>
         </div>
       </div>
