@@ -7,7 +7,7 @@ export default function Navigation() {
       <div className="bg-white border-2 border-black flex fixed justify-between w-[80vw] md:max-w-250 h-16 my-5 mx-auto p-2 rounded-xl z-9999">
         {/* Logo */}
         <a 
-          href="http://localhost:3000/"
+          href="https://siyoungk.github.io/"
           className="text-black my-auto mx-3 rounded-xl"
         >
           <div className="w-[3rem]">
