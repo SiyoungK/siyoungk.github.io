@@ -1,12 +1,11 @@
 "use client"
-import HeroPage from "@/components/HeroPage";
 import HorizontalDivider from "@/components/HorizontalDivider";
 import Navigation from "@/components/Navigation";
 import LargeCard from "@/components/LargeCard";
 import MediumCard from "@/components/MediumCard";
-import Marquee from "@/components/Marquee";
 import TypingHeader from "@/components/TypingHeader";
 import CornersOverlay from "@/components/CornersOverlay";
+import HeroFrame from "@/components/HeroFrame";
 
 export default function Home() {
   return (
@@ -16,14 +15,8 @@ export default function Home() {
       <Navigation/>
       <main className="pt-16 md:pt-13.75">
         {/* ================ Hero ================ */}
-        <section id="hero" className="scroll-mt-16 md:scroll-mt-13.75">
-          <div className="mt-10">
-            <Marquee text="REACT TYPESCRIPT NEXTJS TAILWIND CSS HTML MOTION" slope={2}/>
-          </div>
-          <HeroPage/>
-          <div>
-            <Marquee text="REACT TYPESCRIPT NEXTJS TAILWIND CSS HTML MOTION" slope={-2}/>
-          </div>
+        <section id="hero" className="h-screen flex items-center justify-center">
+          <HeroFrame/>
         </section>
         {/* ================ Portfolio ================ */}
         <section id="portfolio" className="scroll-mt-16 md:scroll-mt-13.75">
